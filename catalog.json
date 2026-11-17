@@ -1,0 +1,3028 @@
+{
+  "format": "model-catalog/v1",
+  "description": "本仓库只含 3D 模型（GLB）与本目录文件；每个条目说明模型的作用与适用场景，供 AI/Agent 检索使用。",
+  "total_models": 115,
+  "packs": [
+    {
+      "key": "acnh_style",
+      "label": "动物森友会风（ACNH 风格包）",
+      "root": "models/acnh_style",
+      "blurb": "粉彩圆润的玩具感风格，岛屿生活场景；6 类别 / 26 子类 / 60 个模型。",
+      "models": 60
+    },
+    {
+      "key": "urban_style",
+      "label": "都市动漫风（复古 × 潮流风格包）",
+      "root": "models/urban_style",
+      "blurb": "参考《绝区零》高层视觉语言的原创都市动漫风格，高对比、霓虹、切角、CRT/街机/唱片母题；8 类别 / 26 子类 / 55 个已生成模型（全集 130 个，75 个待生成）。",
+      "models": 55
+    }
+  ],
+  "models": [
+    {
+      "id": "bld_cottage_01",
+      "name": "玩家小屋",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "residential",
+      "subcategory_name": "居住建筑",
+      "description": "奶油色墙、薄荷绿圆润屋顶、圆形窗、木门与窗台花箱的单层小屋，适合作为玩家住宅或小镇主屋。",
+      "use_cases": [
+        "小镇出生点",
+        "玩家住宅",
+        "场景主视觉"
+      ],
+      "tags": [
+        "建筑",
+        "住宅",
+        "粉彩",
+        "圆润",
+        "主屋"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_cottage_01.glb"
+    },
+    {
+      "id": "bld_shop_01",
+      "name": "杂货商店",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "commercial",
+      "subcategory_name": "商业与集市",
+      "description": "带条纹遮阳篷、木箱与门口铃铛的街角小店，适合作为商店或交易点。",
+      "use_cases": [
+        "商店交互点",
+        "街区节点",
+        "任务发布点"
+      ],
+      "tags": [
+        "建筑",
+        "商店",
+        "交易",
+        "街角"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_shop_01.glb"
+    },
+    {
+      "id": "bld_museum_01",
+      "name": "博物馆",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "public",
+      "subcategory_name": "公共设施",
+      "description": "新古典风格小博物馆，石柱、猫头鹰徽记与暖色灯光，适合作为收集品展示点。",
+      "use_cases": [
+        "博物馆交互点",
+        "收集品展示",
+        "地标"
+      ],
+      "tags": [
+        "建筑",
+        "博物馆",
+        "公共设施",
+        "收集"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_museum_01.glb"
+    },
+    {
+      "id": "bld_services_01",
+      "name": "服务处",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "public",
+      "subcategory_name": "公共设施",
+      "description": "绿色屋顶的公共服务建筑，带公告板与小旗，适合作为任务或公告中心。",
+      "use_cases": [
+        "任务中心",
+        "公告板",
+        "新手引导"
+      ],
+      "tags": [
+        "建筑",
+        "服务处",
+        "公共设施",
+        "任务"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_services_01.glb"
+    },
+    {
+      "id": "bld_bridge_01",
+      "name": "木桥",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "infrastructure",
+      "subcategory_name": "连接与地标",
+      "description": "拱形木桥配绳索护栏，跨过小溪，适合连接两个场景区域。",
+      "use_cases": [
+        "区域连接",
+        "河流跨越",
+        "场景装饰"
+      ],
+      "tags": [
+        "建筑",
+        "桥梁",
+        "连接",
+        "景观"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_bridge_01.glb"
+    },
+    {
+      "id": "bld_dock_01",
+      "name": "码头",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "infrastructure",
+      "subcategory_name": "连接与地标",
+      "description": "带路灯、木箱与救生圈的木质码头，适合作为钓鱼或出海交互点。",
+      "use_cases": [
+        "钓鱼点",
+        "出海点",
+        "水边场景"
+      ],
+      "tags": [
+        "建筑",
+        "码头",
+        "钓鱼",
+        "水边"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_dock_01.glb"
+    },
+    {
+      "id": "bld_cafe",
+      "name": "咖啡馆",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "commercial",
+      "subcategory_name": "商业与集市",
+      "description": "粉彩外墙、条纹遮阳篷与户外小桌的咖啡馆，适合作为休息或社交点。",
+      "use_cases": [
+        "社交点",
+        "休息区",
+        "街区装饰"
+      ],
+      "tags": [
+        "建筑",
+        "咖啡馆",
+        "社交",
+        "休息"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_cafe.glb"
+    },
+    {
+      "id": "bld_lighthouse",
+      "name": "灯塔",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "infrastructure",
+      "subcategory_name": "连接与地标",
+      "description": "奶油与珊瑚色条纹的圆润灯塔，适合作为海岸地标。",
+      "use_cases": [
+        "海岸地标",
+        "导航点",
+        "远景"
+      ],
+      "tags": [
+        "建筑",
+        "灯塔",
+        "海岸",
+        "地标"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_lighthouse.glb"
+    },
+    {
+      "id": "bld_treehouse",
+      "name": "树屋",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "residential",
+      "subcategory_name": "居住建筑",
+      "description": "带木梯、圆窗与串灯的树屋，适合作为森林隐藏点。",
+      "use_cases": [
+        "森林隐藏点",
+        "秘密基地",
+        "观景点"
+      ],
+      "tags": [
+        "建筑",
+        "树屋",
+        "森林",
+        "隐藏"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_treehouse.glb"
+    },
+    {
+      "id": "bld_stall",
+      "name": "路边摊",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "01_buildings",
+      "category_name": "建筑",
+      "subcategory": "commercial",
+      "subcategory_name": "商业与集市",
+      "description": "带条纹顶棚与果篮的木质路边摊，适合作为集市节点。",
+      "use_cases": [
+        "集市节点",
+        "临时商店",
+        "活动摊位"
+      ],
+      "tags": [
+        "建筑",
+        "摊位",
+        "集市",
+        "交易"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/01_buildings/models_text/bld_stall.glb"
+    },
+    {
+      "id": "chr_cat_01",
+      "name": "猫咪村民",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "villagers",
+      "subcategory_name": "动物村民",
+      "description": "奶油色猫咪村民，蓝色马甲，大脑袋短身体，微笑挥手。",
+      "use_cases": [
+        "NPC",
+        "对话角色",
+        "村庄居民"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "猫",
+        "友好"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_cat_01.glb"
+    },
+    {
+      "id": "chr_dog_01",
+      "name": "狗狗村民",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "villagers",
+      "subcategory_name": "动物村民",
+      "description": "柴犬风狗狗村民，绿色连帽衫，开心表情。",
+      "use_cases": [
+        "NPC",
+        "运动型角色",
+        "村庄居民"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "狗",
+        "活力"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_dog_01.glb"
+    },
+    {
+      "id": "chr_rabbit_01",
+      "name": "兔子村民",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "villagers",
+      "subcategory_name": "动物村民",
+      "description": "蜜桃色兔子村民，背带裤，长耳朵，温柔可爱。",
+      "use_cases": [
+        "NPC",
+        "商店店员",
+        "村庄居民"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "兔子",
+        "温柔"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_rabbit_01.glb"
+    },
+    {
+      "id": "chr_deer_01",
+      "name": "小鹿村民",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "villagers",
+      "subcategory_name": "动物村民",
+      "description": "小鹿村民，碎花裙，温柔微笑，适合森林主题。",
+      "use_cases": [
+        "NPC",
+        "森林向导",
+        "村庄居民"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "鹿",
+        "森林"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_deer_01.glb"
+    },
+    {
+      "id": "chr_duck_01",
+      "name": "鸭子村民",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "villagers",
+      "subcategory_name": "动物村民",
+      "description": "黄色小鸭村民，穿雨衣，圆润体型。",
+      "use_cases": [
+        "NPC",
+        "天气相关角色",
+        "村庄居民"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "鸭子",
+        "雨天"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_duck_01.glb"
+    },
+    {
+      "id": "chr_player_01",
+      "name": "玩家角色",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "player",
+      "subcategory_name": "玩家角色",
+      "description": "人类小孩玩家角色，圆头、休闲 T 恤、短裤、运动鞋与小背包。",
+      "use_cases": [
+        "玩家化身",
+        "主角",
+        "第三人称角色"
+      ],
+      "tags": [
+        "角色",
+        "玩家",
+        "人类",
+        "主角"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_player_01.glb"
+    },
+    {
+      "id": "chr_bear",
+      "name": "熊村民",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "villagers",
+      "subcategory_name": "动物村民",
+      "description": "圆胖熊村民，针织开衫，温暖笑容。",
+      "use_cases": [
+        "NPC",
+        "商店店主",
+        "村庄居民"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "熊",
+        "温暖"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_bear.glb"
+    },
+    {
+      "id": "chr_squirrel",
+      "name": "松鼠村民",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "villagers",
+      "subcategory_name": "动物村民",
+      "description": "大尾巴松鼠村民，绿色围裙，活泼可爱。",
+      "use_cases": [
+        "NPC",
+        "园艺店员",
+        "村庄居民"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "松鼠",
+        "活泼"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_squirrel.glb"
+    },
+    {
+      "id": "chr_frog",
+      "name": "青蛙村民",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "villagers",
+      "subcategory_name": "动物村民",
+      "description": "绿色青蛙村民，黄色雨帽，活泼。",
+      "use_cases": [
+        "NPC",
+        "池塘向导",
+        "村庄居民"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "青蛙",
+        "雨天"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_frog.glb"
+    },
+    {
+      "id": "chr_owl",
+      "name": "猫头鹰馆长",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "02_characters",
+      "category_name": "角色",
+      "subcategory": "special_npc",
+      "subcategory_name": "特殊 NPC",
+      "description": "戴圆眼镜与领结的猫头鹰馆长，适合博物馆场景。",
+      "use_cases": [
+        "博物馆馆长",
+        "知识型 NPC",
+        "向导"
+      ],
+      "tags": [
+        "角色",
+        "村民",
+        "猫头鹰",
+        "博物馆"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/02_characters/models_text/chr_owl.glb"
+    },
+    {
+      "id": "nat_tree_broadleaf_01",
+      "name": "阔叶树",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "trees",
+      "subcategory_name": "树木",
+      "description": "圆球形树冠、粗短树干的阔叶树，带草地小土丘。",
+      "use_cases": [
+        "场景填充",
+        "树荫",
+        "村庄绿化"
+      ],
+      "tags": [
+        "自然",
+        "树",
+        "阔叶",
+        "绿地"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_tree_broadleaf_01.glb"
+    },
+    {
+      "id": "nat_tree_sakura_01",
+      "name": "樱花树",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "trees",
+      "subcategory_name": "树木",
+      "description": "粉色樱花冠、花瓣点缀的樱花树，适合春季场景。",
+      "use_cases": [
+        "春季场景",
+        "拍照点",
+        "公园"
+      ],
+      "tags": [
+        "自然",
+        "树",
+        "樱花",
+        "春季"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_tree_sakura_01.glb"
+    },
+    {
+      "id": "nat_tree_palm_01",
+      "name": "棕榈树",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "trees",
+      "subcategory_name": "树木",
+      "description": "弯曲树干、大片棕榈叶的棕榈树，适合沙滩场景。",
+      "use_cases": [
+        "沙滩场景",
+        "热带区域",
+        "度假区"
+      ],
+      "tags": [
+        "自然",
+        "树",
+        "棕榈",
+        "沙滩"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_tree_palm_01.glb"
+    },
+    {
+      "id": "nat_tree_pine_01",
+      "name": "松树",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "trees",
+      "subcategory_name": "树木",
+      "description": "三层锥形松针、深绿与暖棕的松树，适合山地或冬季。",
+      "use_cases": [
+        "山地场景",
+        "冬季区域",
+        "森林边缘"
+      ],
+      "tags": [
+        "自然",
+        "树",
+        "松树",
+        "山地"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_tree_pine_01.glb"
+    },
+    {
+      "id": "nat_flowerbed_01",
+      "name": "花丛",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "flowers",
+      "subcategory_name": "花草",
+      "description": "一小簇多色花朵与嫩绿叶的花丛，适合点缀路径与房屋。",
+      "use_cases": [
+        "路径点缀",
+        "房屋花园",
+        "装饰"
+      ],
+      "tags": [
+        "自然",
+        "花",
+        "花园",
+        "点缀"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_flowerbed_01.glb"
+    },
+    {
+      "id": "nat_rock_01",
+      "name": "岩石",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "ground_cover",
+      "subcategory_name": "地面自然物",
+      "description": "圆润灰岩，带苔藓点缀，低矮，适合作为障碍或景观。",
+      "use_cases": [
+        "障碍物",
+        "景观石",
+        "地形点缀"
+      ],
+      "tags": [
+        "自然",
+        "岩石",
+        "障碍",
+        "景观"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_rock_01.glb"
+    },
+    {
+      "id": "nat_bush_flower",
+      "name": "花灌木",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "flowers",
+      "subcategory_name": "花草",
+      "description": "开满粉彩小花的圆润灌木，适合作为绿篱。",
+      "use_cases": [
+        "绿篱",
+        "路径边缘",
+        "庭院装饰"
+      ],
+      "tags": [
+        "自然",
+        "灌木",
+        "花",
+        "绿篱"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_bush_flower.glb"
+    },
+    {
+      "id": "nat_tree_fruit",
+      "name": "果树",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "trees",
+      "subcategory_name": "树木",
+      "description": "挂满橙色果实的圆润果树，适合果园场景。",
+      "use_cases": [
+        "果园",
+        "采集点",
+        "村庄绿化"
+      ],
+      "tags": [
+        "自然",
+        "树",
+        "水果",
+        "果园"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_tree_fruit.glb"
+    },
+    {
+      "id": "nat_mushroom",
+      "name": "蘑菇丛",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "ground_cover",
+      "subcategory_name": "地面自然物",
+      "description": "红帽奶油斑点的圆润蘑菇丛，适合森林地面。",
+      "use_cases": [
+        "森林地面",
+        "采集点",
+        "装饰"
+      ],
+      "tags": [
+        "自然",
+        "蘑菇",
+        "森林",
+        "地面"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_mushroom.glb"
+    },
+    {
+      "id": "nat_stump",
+      "name": "树桩",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "03_nature",
+      "category_name": "自然",
+      "subcategory": "ground_cover",
+      "subcategory_name": "地面自然物",
+      "description": "带年轮与苔藓的圆润树桩，适合作为座椅或装饰。",
+      "use_cases": [
+        "休息点",
+        "森林装饰",
+        "障碍物"
+      ],
+      "tags": [
+        "自然",
+        "树桩",
+        "木质",
+        "装饰"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/03_nature/models_text/nat_stump.glb"
+    },
+    {
+      "id": "fur_table_wood_01",
+      "name": "木桌",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "tables",
+      "subcategory_name": "桌台",
+      "description": "圆角桌面、浅木纹、四条短腿的木质餐桌。",
+      "use_cases": [
+        "室内布置",
+        "餐厅",
+        "商店陈列"
+      ],
+      "tags": [
+        "家具",
+        "桌子",
+        "木质",
+        "室内"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_table_wood_01.glb"
+    },
+    {
+      "id": "fur_chair_wood_01",
+      "name": "木椅",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "seating",
+      "subcategory_name": "坐具",
+      "description": "圆角椅背、软坐垫、浅木色的木椅。",
+      "use_cases": [
+        "室内布置",
+        "餐厅",
+        "阅读角"
+      ],
+      "tags": [
+        "家具",
+        "椅子",
+        "木质",
+        "室内"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_chair_wood_01.glb"
+    },
+    {
+      "id": "fur_sofa_pastel_01",
+      "name": "粉彩沙发",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "seating",
+      "subcategory_name": "坐具",
+      "description": "蜜桃粉布艺沙发，圆润扶手，两个靠垫。",
+      "use_cases": [
+        "客厅布置",
+        "休息区",
+        "室内主视觉"
+      ],
+      "tags": [
+        "家具",
+        "沙发",
+        "粉彩",
+        "客厅"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_sofa_pastel_01.glb"
+    },
+    {
+      "id": "fur_bed_cozy_01",
+      "name": "温馨床",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "sleep",
+      "subcategory_name": "卧具",
+      "description": "木框床、奶油色床品与格纹毯的温馨床。",
+      "use_cases": [
+        "卧室布置",
+        "玩家房屋",
+        "休息点"
+      ],
+      "tags": [
+        "家具",
+        "床",
+        "卧室",
+        "温馨"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_bed_cozy_01.glb"
+    },
+    {
+      "id": "fur_shelf_book_01",
+      "name": "书架",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "storage",
+      "subcategory_name": "收纳",
+      "description": "三层木书架，彩色书脊与小盆栽。",
+      "use_cases": [
+        "书房布置",
+        "商店陈列",
+        "装饰"
+      ],
+      "tags": [
+        "家具",
+        "书架",
+        "收纳",
+        "室内"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_shelf_book_01.glb"
+    },
+    {
+      "id": "fur_lamp_01",
+      "name": "台灯",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "lighting",
+      "subcategory_name": "灯具",
+      "description": "暖黄灯罩、木底座、柔和光晕的台灯。",
+      "use_cases": [
+        "室内照明",
+        "床头灯",
+        "氛围道具"
+      ],
+      "tags": [
+        "家具",
+        "灯具",
+        "暖光",
+        "室内"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_lamp_01.glb"
+    },
+    {
+      "id": "fur_kitchen",
+      "name": "厨房台面",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "tables",
+      "subcategory_name": "桌台",
+      "description": "粉彩厨房台面，木柜、水槽与厨具，适合厨房场景。",
+      "use_cases": [
+        "厨房布置",
+        "料理交互点",
+        "室内场景"
+      ],
+      "tags": [
+        "家具",
+        "厨房",
+        "柜子",
+        "室内"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_kitchen.glb"
+    },
+    {
+      "id": "fur_rug",
+      "name": "圆地毯",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "decor",
+      "subcategory_name": "装饰",
+      "description": "粉彩同心圆图案的圆形编织地毯。",
+      "use_cases": [
+        "客厅地面",
+        "卧室装饰",
+        "区域划分"
+      ],
+      "tags": [
+        "家具",
+        "地毯",
+        "粉彩",
+        "地面"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_rug.glb"
+    },
+    {
+      "id": "fur_wardrobe",
+      "name": "衣柜",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "storage",
+      "subcategory_name": "收纳",
+      "description": "粉彩木衣柜，双门、圆把手与小花雕刻。",
+      "use_cases": [
+        "卧室布置",
+        "换装点",
+        "室内场景"
+      ],
+      "tags": [
+        "家具",
+        "衣柜",
+        "卧室",
+        "收纳"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_wardrobe.glb"
+    },
+    {
+      "id": "fur_clock",
+      "name": "挂钟",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "04_furniture",
+      "category_name": "家具",
+      "subcategory": "decor",
+      "subcategory_name": "装饰",
+      "description": "木质圆框、粉彩表盘与叶片指针的挂钟。",
+      "use_cases": [
+        "墙面装饰",
+        "时间交互点",
+        "室内场景"
+      ],
+      "tags": [
+        "家具",
+        "挂钟",
+        "墙面",
+        "装饰"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/04_furniture/models_text/fur_clock.glb"
+    },
+    {
+      "id": "prp_net_01",
+      "name": "捕虫网",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "tools",
+      "subcategory_name": "工具",
+      "description": "木柄、白色网兜的捕虫网。",
+      "use_cases": [
+        "捕虫交互",
+        "UI 图标",
+        "任务奖励"
+      ],
+      "tags": [
+        "道具",
+        "工具",
+        "捕虫",
+        "手持"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_net_01.glb"
+    },
+    {
+      "id": "prp_rod_01",
+      "name": "钓鱼竿",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "tools",
+      "subcategory_name": "工具",
+      "description": "竹节鱼竿、卷线器与红色浮标的钓鱼竿。",
+      "use_cases": [
+        "钓鱼交互",
+        "UI 图标",
+        "任务奖励"
+      ],
+      "tags": [
+        "道具",
+        "工具",
+        "钓鱼",
+        "手持"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_rod_01.glb"
+    },
+    {
+      "id": "prp_can_01",
+      "name": "浇水壶",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "tools",
+      "subcategory_name": "工具",
+      "description": "薄荷绿壶身、长壶嘴、圆把手的浇水壶。",
+      "use_cases": [
+        "浇花交互",
+        "园艺任务",
+        "UI 图标"
+      ],
+      "tags": [
+        "道具",
+        "工具",
+        "园艺",
+        "浇水"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_can_01.glb"
+    },
+    {
+      "id": "prp_shovel_01",
+      "name": "铲子",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "tools",
+      "subcategory_name": "工具",
+      "description": "木柄、圆头金属铲、略带磨损质感的铲子。",
+      "use_cases": [
+        "挖掘交互",
+        "化石挖掘",
+        "园艺任务"
+      ],
+      "tags": [
+        "道具",
+        "工具",
+        "挖掘",
+        "园艺"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_shovel_01.glb"
+    },
+    {
+      "id": "prp_bells_01",
+      "name": "铃钱袋",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "currency",
+      "subcategory_name": "货币",
+      "description": "米色布袋，金色铃钱符号装饰，鼓鼓的。",
+      "use_cases": [
+        "货币图标",
+        "奖励掉落",
+        "商店交易"
+      ],
+      "tags": [
+        "道具",
+        "货币",
+        "奖励",
+        "收集"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_bells_01.glb"
+    },
+    {
+      "id": "prp_workbench_01",
+      "name": "DIY 工作台",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "crafting",
+      "subcategory_name": "制作",
+      "description": "木质工作台，锤子、木板与收纳盒。",
+      "use_cases": [
+        "制作交互点",
+        "工作坊",
+        "任务台"
+      ],
+      "tags": [
+        "道具",
+        "工作台",
+        "制作",
+        "交互"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_workbench_01.glb"
+    },
+    {
+      "id": "prp_letter",
+      "name": "信件",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "social",
+      "subcategory_name": "社交物",
+      "description": "带粉彩火漆与小爱心邮票的信封，无文字。",
+      "use_cases": [
+        "邮件系统",
+        "任务奖励",
+        "UI 图标"
+      ],
+      "tags": [
+        "道具",
+        "信件",
+        "社交",
+        "收集"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_letter.glb"
+    },
+    {
+      "id": "prp_basket",
+      "name": "野餐篮",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "social",
+      "subcategory_name": "社交物",
+      "description": "编织野餐篮，格纹布、面包与苹果。",
+      "use_cases": [
+        "野餐场景",
+        "食物道具",
+        "任务奖励"
+      ],
+      "tags": [
+        "道具",
+        "篮子",
+        "野餐",
+        "食物"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_basket.glb"
+    },
+    {
+      "id": "prp_camera",
+      "name": "相机",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "camera",
+      "subcategory_name": "拍照",
+      "description": "粉彩机身、圆镜头与背带的复古拍立得相机。",
+      "use_cases": [
+        "拍照交互",
+        "相册系统",
+        "UI 图标"
+      ],
+      "tags": [
+        "道具",
+        "相机",
+        "拍照",
+        "手持"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_camera.glb"
+    },
+    {
+      "id": "prp_fishing_trophy",
+      "name": "钓鱼大赛奖杯",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "05_props",
+      "category_name": "道具",
+      "subcategory": "event",
+      "subcategory_name": "活动奖励",
+      "description": "钓鱼大赛的金色奖杯，鱼形徽记、叶片把手与木质底座，适合作为活动成就奖励。",
+      "use_cases": [
+        "钓鱼大赛奖励",
+        "成就展示",
+        "活动道具"
+      ],
+      "tags": [
+        "道具",
+        "奖杯",
+        "钓鱼",
+        "成就",
+        "活动"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/05_props/models_text/prp_fishing_trophy.glb"
+    },
+    {
+      "id": "ter_grass_tile_01",
+      "name": "草地地块",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "ground",
+      "subcategory_name": "地面模块",
+      "description": "方形草地块、圆角边缘、微微起伏，适合拼接地面。",
+      "use_cases": [
+        "地面拼接",
+        "草地场景",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "草地",
+        "模块",
+        "地面"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_grass_tile_01.glb"
+    },
+    {
+      "id": "ter_path_stone_01",
+      "name": "石板路",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "path",
+      "subcategory_name": "道路模块",
+      "description": "不规则圆石拼成的小路片段。",
+      "use_cases": [
+        "路径铺设",
+        "村庄道路",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "道路",
+        "石板",
+        "模块"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_path_stone_01.glb"
+    },
+    {
+      "id": "ter_boardwalk_01",
+      "name": "木栈道",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "path",
+      "subcategory_name": "道路模块",
+      "description": "横向木板、圆角、带钉钉细节的木栈道片段。",
+      "use_cases": [
+        "水边栈道",
+        "沙滩路径",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "道路",
+        "木栈道",
+        "模块"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_boardwalk_01.glb"
+    },
+    {
+      "id": "ter_sand_tile_01",
+      "name": "沙滩地块",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "ground",
+      "subcategory_name": "地面模块",
+      "description": "米白细沙、贝壳点缀的方形沙滩模块。",
+      "use_cases": [
+        "沙滩拼接",
+        "海岸场景",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "沙滩",
+        "模块",
+        "地面"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_sand_tile_01.glb"
+    },
+    {
+      "id": "ter_water_edge_01",
+      "name": "水边",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "water",
+      "subcategory_name": "水岸与水面",
+      "description": "浅蓝水面与草地交界，白色浪花，圆润岸线。",
+      "use_cases": [
+        "河流边缘",
+        "池塘边缘",
+        "海岸线"
+      ],
+      "tags": [
+        "地形",
+        "水边",
+        "岸线",
+        "模块"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_water_edge_01.glb"
+    },
+    {
+      "id": "ter_ramp_01",
+      "name": "坡道",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "elevation",
+      "subcategory_name": "高差模块",
+      "description": "缓坡土路、两侧草边与木桩的坡道模块。",
+      "use_cases": [
+        "高低差连接",
+        "山丘坡道",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "坡道",
+        "高差",
+        "模块"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_ramp_01.glb"
+    },
+    {
+      "id": "ter_cliff",
+      "name": "悬崖",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "elevation",
+      "subcategory_name": "高差模块",
+      "description": "分层草地与泥土侧面的圆润悬崖模块。",
+      "use_cases": [
+        "高地边缘",
+        "悬崖景观",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "悬崖",
+        "高差",
+        "模块"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_cliff.glb"
+    },
+    {
+      "id": "ter_dirt_path",
+      "name": "泥土路",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "path",
+      "subcategory_name": "道路模块",
+      "description": "圆角边缘、细碎小石子的泥土小路片段。",
+      "use_cases": [
+        "自然路径",
+        "乡村道路",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "道路",
+        "泥土",
+        "模块"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_dirt_path.glb"
+    },
+    {
+      "id": "ter_stairs",
+      "name": "石阶",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "elevation",
+      "subcategory_name": "高差模块",
+      "description": "带苔藓边缘的圆润石阶，三段踏步。",
+      "use_cases": [
+        "高低差连接",
+        "庭院台阶",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "台阶",
+        "高差",
+        "模块"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_stairs.glb"
+    },
+    {
+      "id": "ter_pond",
+      "name": "小池塘",
+      "pack": "acnh_style",
+      "pack_label": "动物森友会风（ACNH 风格包）",
+      "category": "06_terrain",
+      "category_name": "地形",
+      "subcategory": "water",
+      "subcategory_name": "水岸与水面",
+      "description": "浅蓝水面、睡莲叶与圆石边缘的小池塘模块。",
+      "use_cases": [
+        "池塘景观",
+        "钓鱼点",
+        "地图模块"
+      ],
+      "tags": [
+        "地形",
+        "池塘",
+        "水面",
+        "模块"
+      ],
+      "roles": [],
+      "target_height": null,
+      "model": "models/acnh_style/06_terrain/models_text/ter_pond.glb"
+    },
+    {
+      "id": "u_chr_runner",
+      "name": "街区跑者",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "street_crew",
+      "subcategory_name": "街区组",
+      "description": "原创都市跑者，oversized 外套、运动鞋与斜挎包，适合作为玩家或街区 NPC。",
+      "use_cases": [
+        "玩家化身",
+        "街区向导",
+        "跑腿任务"
+      ],
+      "tags": [
+        "角色",
+        "跑者",
+        "玩家",
+        "都市"
+      ],
+      "roles": [
+        "player",
+        "npc"
+      ],
+      "target_height": 1.7,
+      "model": "models/urban_style/U1_characters/street_crew/models_text/u_chr_runner.glb"
+    },
+    {
+      "id": "u_chr_fixer",
+      "name": "委托中介",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "street_crew",
+      "subcategory_name": "街区组",
+      "description": "原创委托中介，长外套、耳机与手持终端，负责发布任务与情报。",
+      "use_cases": [
+        "任务发布",
+        "情报交易",
+        "剧情对话"
+      ],
+      "tags": [
+        "角色",
+        "中介",
+        "任务",
+        "都市"
+      ],
+      "roles": [
+        "quest_giver"
+      ],
+      "target_height": 1.75,
+      "model": "models/urban_style/U1_characters/street_crew/models_text/u_chr_fixer.glb"
+    },
+    {
+      "id": "u_chr_mechanic",
+      "name": "机械师",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "service_crew",
+      "subcategory_name": "服务组",
+      "description": "原创机械师，工装裤、护目镜与扳手，负责修理与制作。",
+      "use_cases": [
+        "装备修理",
+        "制作台",
+        "工坊 NPC"
+      ],
+      "tags": [
+        "角色",
+        "机械师",
+        "制作",
+        "都市"
+      ],
+      "roles": [
+        "crafter"
+      ],
+      "target_height": 1.7,
+      "model": "models/urban_style/U1_characters/service_crew/models_text/u_chr_mechanic.glb"
+    },
+    {
+      "id": "u_chr_vendor",
+      "name": "街边店主",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "service_crew",
+      "subcategory_name": "服务组",
+      "description": "原创街边店主，围裙、棒球帽与手套，负责商店交易。",
+      "use_cases": [
+        "商店 NPC",
+        "交易",
+        "街区氛围"
+      ],
+      "tags": [
+        "角色",
+        "店主",
+        "商人",
+        "都市"
+      ],
+      "roles": [
+        "merchant"
+      ],
+      "target_height": 1.65,
+      "model": "models/urban_style/U1_characters/service_crew/models_text/u_chr_vendor.glb"
+    },
+    {
+      "id": "u_chr_dj",
+      "name": "DJ",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "scene_crew",
+      "subcategory_name": "场景组",
+      "description": "原创街头 DJ，耳机、夹克与便携混音台，负责场景氛围。",
+      "use_cases": [
+        "场景氛围",
+        "音乐交互",
+        "夜店/游戏厅"
+      ],
+      "tags": [
+        "角色",
+        "DJ",
+        "音乐",
+        "都市"
+      ],
+      "roles": [
+        "npc"
+      ],
+      "target_height": 1.7,
+      "model": "models/urban_style/U1_characters/scene_crew/models_text/u_chr_dj.glb"
+    },
+    {
+      "id": "u_chr_guard",
+      "name": "安保",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "service_crew",
+      "subcategory_name": "服务组",
+      "description": "原创都市安保，战术背心、短棍与耳麦，负责巡逻与门禁。",
+      "use_cases": [
+        "门禁",
+        "巡逻",
+        "冲突任务"
+      ],
+      "tags": [
+        "角色",
+        "安保",
+        "守卫",
+        "都市"
+      ],
+      "roles": [
+        "guard"
+      ],
+      "target_height": 1.8,
+      "model": "models/urban_style/U1_characters/service_crew/models_text/u_chr_guard.glb"
+    },
+    {
+      "id": "u_chr_hacker",
+      "name": "黑客",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "street_crew",
+      "subcategory_name": "街区组",
+      "description": "原创都市黑客，连帽衫、面罩与平板，负责情报与技术交互。",
+      "use_cases": [
+        "情报破解",
+        "终端交互",
+        "支线任务"
+      ],
+      "tags": [
+        "角色",
+        "黑客",
+        "技术",
+        "都市"
+      ],
+      "roles": [
+        "npc"
+      ],
+      "target_height": 1.65,
+      "model": "models/urban_style/U1_characters/street_crew/models_text/u_chr_hacker.glb"
+    },
+    {
+      "id": "u_chr_student",
+      "name": "学生",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "scene_crew",
+      "subcategory_name": "场景组",
+      "description": "原创都市学生，简洁制服外套、背包与运动鞋，用于街区日常氛围。",
+      "use_cases": [
+        "街区氛围",
+        "支线对话",
+        "校园/日常场景"
+      ],
+      "tags": [
+        "角色",
+        "学生",
+        "日常",
+        "都市"
+      ],
+      "roles": [
+        "npc"
+      ],
+      "target_height": 1.55,
+      "model": "models/urban_style/U1_characters/scene_crew/models_text/u_chr_student.glb"
+    },
+    {
+      "id": "u_chr_performer",
+      "name": "街头艺人",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "street_crew",
+      "subcategory_name": "街区组",
+      "description": "原创街头艺人，旧夹克与贴纸吉他盒，用于广场与夜市氛围。",
+      "use_cases": [
+        "广场表演",
+        "氛围 NPC",
+        "支线事件"
+      ],
+      "tags": [
+        "角色",
+        "艺人",
+        "表演",
+        "都市"
+      ],
+      "roles": [
+        "npc"
+      ],
+      "target_height": 1.7,
+      "model": "models/urban_style/U1_characters/street_crew/models_text/u_chr_performer.glb"
+    },
+    {
+      "id": "u_chr_android",
+      "name": "人形机偶",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U1_characters",
+      "category_name": "角色 / NPC",
+      "subcategory": "scene_crew",
+      "subcategory_name": "场景组",
+      "description": "原创人形机偶，机械关节、屏幕脸与线缆，用于科幻/工业街区。",
+      "use_cases": [
+        "工业区 NPC",
+        "终端交互",
+        "科幻氛围"
+      ],
+      "tags": [
+        "角色",
+        "机偶",
+        "机械",
+        "都市"
+      ],
+      "roles": [
+        "npc"
+      ],
+      "target_height": 1.75,
+      "model": "models/urban_style/U1_characters/scene_crew/models_text/u_chr_android.glb"
+    },
+    {
+      "id": "u_prp_crt_tv",
+      "name": "复古 CRT 电视",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "retro_electronics",
+      "subcategory_name": "复古电子",
+      "description": "复古 CRT 电视，厚后座、旋钮与雪花屏，用于街角、房间与游戏厅。",
+      "use_cases": [
+        "街角堆叠",
+        "游戏厅",
+        "室内装饰"
+      ],
+      "tags": [
+        "道具",
+        "CRT",
+        "复古",
+        "电子"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 0.6,
+      "model": "models/urban_style/U2_props/retro_electronics/models_text/u_prp_crt_tv.glb"
+    },
+    {
+      "id": "u_prp_arcade_cabinet",
+      "name": "街机柜",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "retro_electronics",
+      "subcategory_name": "复古电子",
+      "description": "复古街机柜，摇杆、按钮、投币口与小屏幕，可触发街机小游戏。",
+      "use_cases": [
+        "街机小游戏",
+        "游戏厅",
+        "奖励机"
+      ],
+      "tags": [
+        "道具",
+        "街机",
+        "游戏",
+        "复古"
+      ],
+      "roles": [
+        "prop",
+        "shop"
+      ],
+      "target_height": 1.8,
+      "model": "models/urban_style/U2_props/retro_electronics/models_text/u_prp_arcade_cabinet.glb"
+    },
+    {
+      "id": "u_prp_neon_sign",
+      "name": "霓虹招牌",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "retro_electronics",
+      "subcategory_name": "复古电子",
+      "description": "霓虹招牌，抽象几何图形与金属框架，用于街区氛围与任务标记。",
+      "use_cases": [
+        "街区照明",
+        "任务标记",
+        "店铺装饰"
+      ],
+      "tags": [
+        "道具",
+        "霓虹",
+        "招牌",
+        "氛围"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 1.4,
+      "model": "models/urban_style/U2_props/retro_electronics/models_text/u_prp_neon_sign.glb"
+    },
+    {
+      "id": "u_prp_vending_machine",
+      "name": "自动售货机",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "street_furniture",
+      "subcategory_name": "街道设施",
+      "description": "自动售货机，玻璃正面、通用罐装饮料与发光面板，可购买消耗品。",
+      "use_cases": [
+        "购买消耗品",
+        "街角补给",
+        "场景装饰"
+      ],
+      "tags": [
+        "道具",
+        "售货机",
+        "商店",
+        "街道"
+      ],
+      "roles": [
+        "prop",
+        "shop"
+      ],
+      "target_height": 1.9,
+      "model": "models/urban_style/U2_props/street_furniture/models_text/u_prp_vending_machine.glb"
+    },
+    {
+      "id": "u_prp_dumpster",
+      "name": "垃圾箱",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "street_furniture",
+      "subcategory_name": "街道设施",
+      "description": "工业垃圾箱，厚重盖子、轮子与磨损金属，可翻找战利品。",
+      "use_cases": [
+        "翻找战利品",
+        "巷战掩体",
+        "街区装饰"
+      ],
+      "tags": [
+        "道具",
+        "垃圾箱",
+        "战利品",
+        "街道"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 1.2,
+      "model": "models/urban_style/U2_props/street_furniture/models_text/u_prp_dumpster.glb"
+    },
+    {
+      "id": "u_prp_traffic_cone",
+      "name": "交通锥",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "street_furniture",
+      "subcategory_name": "街道设施",
+      "description": "交通锥，反光带与磨损塑料，用于道路施工与引导。",
+      "use_cases": [
+        "道路引导",
+        "施工场景",
+        "障碍物"
+      ],
+      "tags": [
+        "道具",
+        "交通锥",
+        "街道",
+        "施工"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 0.7,
+      "model": "models/urban_style/U2_props/street_furniture/models_text/u_prp_traffic_cone.glb"
+    },
+    {
+      "id": "u_prp_boombox",
+      "name": "手提音响",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "retro_electronics",
+      "subcategory_name": "复古电子",
+      "description": "复古手提音响，卡带仓、双喇叭与提手，用于街头氛围。",
+      "use_cases": [
+        "街头音乐",
+        "氛围装饰",
+        "任务道具"
+      ],
+      "tags": [
+        "道具",
+        "音响",
+        "复古",
+        "音乐"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 0.4,
+      "model": "models/urban_style/U2_props/retro_electronics/models_text/u_prp_boombox.glb"
+    },
+    {
+      "id": "u_prp_skateboard",
+      "name": "滑板",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "street_furniture",
+      "subcategory_name": "街道设施",
+      "description": "磨损滑板，抽象板面图案与轮子，可拾取或作为街区道具。",
+      "use_cases": [
+        "拾取物",
+        "街区装饰",
+        "跑酷任务"
+      ],
+      "tags": [
+        "道具",
+        "滑板",
+        "街道",
+        "潮流"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 0.2,
+      "model": "models/urban_style/U2_props/street_furniture/models_text/u_prp_skateboard.glb"
+    },
+    {
+      "id": "u_prp_scooter",
+      "name": "踏板摩托",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "street_furniture",
+      "subcategory_name": "街道设施",
+      "description": "紧凑踏板摩托，圆润车身、车灯与后视镜，用于街道停放。",
+      "use_cases": [
+        "街道停放",
+        "快递任务",
+        "场景装饰"
+      ],
+      "tags": [
+        "道具",
+        "摩托",
+        "交通",
+        "街道"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 1.1,
+      "model": "models/urban_style/U2_props/street_furniture/models_text/u_prp_scooter.glb"
+    },
+    {
+      "id": "u_prp_food_cart",
+      "name": "小吃车",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "street_furniture",
+      "subcategory_name": "街道设施",
+      "description": "街头小吃车，布棚、铁板、凳子与通用碗具，可购买食物。",
+      "use_cases": [
+        "购买食物",
+        "夜市",
+        "街区氛围"
+      ],
+      "tags": [
+        "道具",
+        "小吃车",
+        "商店",
+        "街道"
+      ],
+      "roles": [
+        "prop",
+        "shop"
+      ],
+      "target_height": 1.2,
+      "model": "models/urban_style/U2_props/street_furniture/models_text/u_prp_food_cart.glb"
+    },
+    {
+      "id": "u_prp_loot_case",
+      "name": "战利品箱",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "commerce_props",
+      "subcategory_name": "商业道具",
+      "description": "工业战利品箱，卡扣、加固角与发光缝，可开启获得奖励。",
+      "use_cases": [
+        "开箱奖励",
+        "任务奖励",
+        "建造放置"
+      ],
+      "tags": [
+        "道具",
+        "宝箱",
+        "战利品",
+        "奖励"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 0.5,
+      "model": "models/urban_style/U2_props/commerce_props/models_text/u_prp_loot_case.glb"
+    },
+    {
+      "id": "u_prp_vinyl_record",
+      "name": "黑胶唱片",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "media_collectibles",
+      "subcategory_name": "影音收藏",
+      "description": "黑胶唱片，抽象封套与亮面黑盘，可收集或作为任务物品。",
+      "use_cases": [
+        "收集品",
+        "任务物品",
+        "角色页装饰"
+      ],
+      "tags": [
+        "道具",
+        "唱片",
+        "收藏",
+        "音乐"
+      ],
+      "roles": [
+        "prop",
+        "item"
+      ],
+      "target_height": 0.3,
+      "model": "models/urban_style/U2_props/media_collectibles/models_text/u_prp_vinyl_record.glb"
+    },
+    {
+      "id": "u_prp_film_reel",
+      "name": "胶片盘",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "media_collectibles",
+      "subcategory_name": "影音收藏",
+      "description": "胶片盘，齿孔胶片与金属罐，可收集或用于回忆/任务。",
+      "use_cases": [
+        "收集品",
+        "回忆任务",
+        "加载页装饰"
+      ],
+      "tags": [
+        "道具",
+        "胶片",
+        "收藏",
+        "复古"
+      ],
+      "roles": [
+        "prop",
+        "item"
+      ],
+      "target_height": 0.3,
+      "model": "models/urban_style/U2_props/media_collectibles/models_text/u_prp_film_reel.glb"
+    },
+    {
+      "id": "u_prp_cassette_tape",
+      "name": "卡带",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "media_collectibles",
+      "subcategory_name": "影音收藏",
+      "description": "卡带，抽象标签与透明塑料壳，可收集或作为任务物品。",
+      "use_cases": [
+        "收集品",
+        "任务物品",
+        "音轨解锁"
+      ],
+      "tags": [
+        "道具",
+        "卡带",
+        "收藏",
+        "音乐"
+      ],
+      "roles": [
+        "prop",
+        "item"
+      ],
+      "target_height": 0.2,
+      "model": "models/urban_style/U2_props/media_collectibles/models_text/u_prp_cassette_tape.glb"
+    },
+    {
+      "id": "u_prp_ticket_machine",
+      "name": "票据机",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "commerce_props",
+      "subcategory_name": "商业道具",
+      "description": "票据机，出票口、按钮与齿孔票据，可购买任务券/车票。",
+      "use_cases": [
+        "购买票据",
+        "任务券",
+        "地铁交互"
+      ],
+      "tags": [
+        "道具",
+        "票据机",
+        "商店",
+        "交通"
+      ],
+      "roles": [
+        "prop",
+        "shop"
+      ],
+      "target_height": 1.5,
+      "model": "models/urban_style/U2_props/commerce_props/models_text/u_prp_ticket_machine.glb"
+    },
+    {
+      "id": "u_prp_capsule_machine",
+      "name": "扭蛋机",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "commerce_props",
+      "subcategory_name": "商业道具",
+      "description": "扭蛋机，玻璃球罩、彩色胶囊与投币口，可抽取随机奖励。",
+      "use_cases": [
+        "随机奖励",
+        "潮玩收集",
+        "活动入口"
+      ],
+      "tags": [
+        "道具",
+        "扭蛋",
+        "商店",
+        "奖励"
+      ],
+      "roles": [
+        "prop",
+        "shop"
+      ],
+      "target_height": 1.5,
+      "model": "models/urban_style/U2_props/commerce_props/models_text/u_prp_capsule_machine.glb"
+    },
+    {
+      "id": "u_prp_retro_console",
+      "name": "复古游戏机",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "retro_electronics",
+      "subcategory_name": "复古电子",
+      "description": "复古游戏机，卡带槽、手柄与灰色塑料外壳，用于室内/游戏厅。",
+      "use_cases": [
+        "室内装饰",
+        "小游戏入口",
+        "收集品"
+      ],
+      "tags": [
+        "道具",
+        "游戏机",
+        "复古",
+        "电子"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 0.25,
+      "model": "models/urban_style/U2_props/retro_electronics/models_text/u_prp_retro_console.glb"
+    },
+    {
+      "id": "u_prp_control_panel",
+      "name": "控制面板",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "retro_electronics",
+      "subcategory_name": "复古电子",
+      "description": "工业控制面板，旋钮、滑块、小屏幕与线缆，用于机关与场景交互。",
+      "use_cases": [
+        "机关开关",
+        "门禁",
+        "场景交互"
+      ],
+      "tags": [
+        "道具",
+        "控制面板",
+        "机关",
+        "工业"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 1.0,
+      "model": "models/urban_style/U2_props/retro_electronics/models_text/u_prp_control_panel.glb"
+    },
+    {
+      "id": "u_prp_street_lamp",
+      "name": "路灯",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U2_props",
+      "category_name": "都市交互物",
+      "subcategory": "street_furniture",
+      "subcategory_name": "街道设施",
+      "description": "都市路灯，弯臂、金属杆与冷暖光，用于街道照明。",
+      "use_cases": [
+        "街道照明",
+        "夜景氛围",
+        "建造放置"
+      ],
+      "tags": [
+        "道具",
+        "路灯",
+        "照明",
+        "街道"
+      ],
+      "roles": [
+        "prop"
+      ],
+      "target_height": 2.4,
+      "model": "models/urban_style/U2_props/street_furniture/models_text/u_prp_street_lamp.glb"
+    },
+    {
+      "id": "u_bld_apartment",
+      "name": "公寓楼",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "residential",
+      "subcategory_name": "居住",
+      "description": "都市公寓楼，混凝土立面、阳台与屋顶水箱，作为街区主体建筑。",
+      "use_cases": [
+        "街区主体",
+        "玩家住宅",
+        "攀爬/探索"
+      ],
+      "tags": [
+        "建筑",
+        "公寓",
+        "居住",
+        "都市"
+      ],
+      "roles": [
+        "building"
+      ],
+      "target_height": 6.0,
+      "model": "models/urban_style/U3_buildings/residential/models_text/u_bld_apartment.glb"
+    },
+    {
+      "id": "u_bld_convenience_store",
+      "name": "便利店",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "commercial",
+      "subcategory_name": "商业",
+      "description": "街角便利店，玻璃门面、荧光灯与遮阳篷，作为商店交互点。",
+      "use_cases": [
+        "商店交互",
+        "补给点",
+        "街区地标"
+      ],
+      "tags": [
+        "建筑",
+        "便利店",
+        "商店",
+        "都市"
+      ],
+      "roles": [
+        "shop"
+      ],
+      "target_height": 3.5,
+      "model": "models/urban_style/U3_buildings/commercial/models_text/u_bld_convenience_store.glb"
+    },
+    {
+      "id": "u_bld_noodle_shop",
+      "name": "面馆",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "commercial",
+      "subcategory_name": "商业",
+      "description": "小面馆，布帘、凳子与暖光 interior，作为餐饮/休息点。",
+      "use_cases": [
+        "购买食物",
+        "休息点",
+        "街区氛围"
+      ],
+      "tags": [
+        "建筑",
+        "面馆",
+        "餐饮",
+        "都市"
+      ],
+      "roles": [
+        "shop"
+      ],
+      "target_height": 3.0,
+      "model": "models/urban_style/U3_buildings/commercial/models_text/u_bld_noodle_shop.glb"
+    },
+    {
+      "id": "u_bld_arcade",
+      "name": "游戏厅",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "entertainment",
+      "subcategory_name": "娱乐",
+      "description": "双层游戏厅，霓虹立面与 CRT 屏幕，可进入街机小游戏。",
+      "use_cases": [
+        "街机小游戏",
+        "娱乐交互",
+        "夜间地标"
+      ],
+      "tags": [
+        "建筑",
+        "游戏厅",
+        "娱乐",
+        "街机"
+      ],
+      "roles": [
+        "shop"
+      ],
+      "target_height": 4.0,
+      "model": "models/urban_style/U3_buildings/entertainment/models_text/u_bld_arcade.glb"
+    },
+    {
+      "id": "u_bld_garage",
+      "name": "车库工坊",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "industrial",
+      "subcategory_name": "工业",
+      "description": "街边车库工坊，卷帘门、工具与轮胎堆，作为制作/修理点。",
+      "use_cases": [
+        "制作台",
+        "修理",
+        "机械师 NPC"
+      ],
+      "tags": [
+        "建筑",
+        "车库",
+        "工坊",
+        "工业"
+      ],
+      "roles": [
+        "building",
+        "crafter"
+      ],
+      "target_height": 3.5,
+      "model": "models/urban_style/U3_buildings/industrial/models_text/u_bld_garage.glb"
+    },
+    {
+      "id": "u_bld_laundromat",
+      "name": "洗衣店",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "commercial",
+      "subcategory_name": "商业",
+      "description": "洗衣店，玻璃门面与成排机器，作为日常商店/休息点。",
+      "use_cases": [
+        "日常商店",
+        "休息点",
+        "街区氛围"
+      ],
+      "tags": [
+        "建筑",
+        "洗衣店",
+        "商业",
+        "日常"
+      ],
+      "roles": [
+        "shop"
+      ],
+      "target_height": 3.0,
+      "model": "models/urban_style/U3_buildings/commercial/models_text/u_bld_laundromat.glb"
+    },
+    {
+      "id": "u_bld_subway_entrance",
+      "name": "地铁口",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "transit",
+      "subcategory_name": "交通",
+      "description": "地铁口，楼梯、栏杆与空白指示框，用于快速旅行/场景切换。",
+      "use_cases": [
+        "快速旅行",
+        "场景切换",
+        "街区地标"
+      ],
+      "tags": [
+        "建筑",
+        "地铁",
+        "交通",
+        "都市"
+      ],
+      "roles": [
+        "building"
+      ],
+      "target_height": 3.0,
+      "model": "models/urban_style/U3_buildings/transit/models_text/u_bld_subway_entrance.glb"
+    },
+    {
+      "id": "u_bld_warehouse",
+      "name": "仓库",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "industrial",
+      "subcategory_name": "工业",
+      "description": "工业仓库，波纹金属、装卸台与卷帘门，用于战斗/探索场景。",
+      "use_cases": [
+        "探索区域",
+        "战斗场景",
+        "物资点"
+      ],
+      "tags": [
+        "建筑",
+        "仓库",
+        "工业",
+        "探索"
+      ],
+      "roles": [
+        "building"
+      ],
+      "target_height": 5.0,
+      "model": "models/urban_style/U3_buildings/industrial/models_text/u_bld_warehouse.glb"
+    },
+    {
+      "id": "u_bld_security_booth",
+      "name": "安保亭",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "industrial",
+      "subcategory_name": "工业",
+      "description": "小型安保亭，玻璃窗、对讲机与桌子，用于门禁与守卫互动。",
+      "use_cases": [
+        "门禁交互",
+        "守卫 NPC",
+        "任务检查点"
+      ],
+      "tags": [
+        "建筑",
+        "安保",
+        "门禁",
+        "工业"
+      ],
+      "roles": [
+        "building",
+        "guard"
+      ],
+      "target_height": 2.5,
+      "model": "models/urban_style/U3_buildings/industrial/models_text/u_bld_security_booth.glb"
+    },
+    {
+      "id": "u_bld_billboard",
+      "name": "广告牌",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U3_buildings",
+      "category_name": "都市建筑",
+      "subcategory": "entertainment",
+      "subcategory_name": "娱乐",
+      "description": "大型广告牌，钢架与抽象空白海报，用于街区地标与任务信息。",
+      "use_cases": [
+        "街区地标",
+        "任务公告",
+        "夜景氛围"
+      ],
+      "tags": [
+        "建筑",
+        "广告牌",
+        "地标",
+        "传播"
+      ],
+      "roles": [
+        "building"
+      ],
+      "target_height": 5.0,
+      "model": "models/urban_style/U3_buildings/entertainment/models_text/u_bld_billboard.glb"
+    },
+    {
+      "id": "u_ter_asphalt",
+      "name": "沥青地块",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "road",
+      "subcategory_name": "道路",
+      "description": "模块化沥青地块，裂纹与微湿反光，适合铺路。",
+      "use_cases": [
+        "铺路",
+        "街区地面",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "沥青",
+        "道路",
+        "模块"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.1,
+      "model": "models/urban_style/U4_terrain/road/models_text/u_ter_asphalt.glb"
+    },
+    {
+      "id": "u_ter_crosswalk",
+      "name": "斑马线",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "road",
+      "subcategory_name": "道路",
+      "description": "模块化斑马线地块，白色条纹与沥青底，用于十字路口。",
+      "use_cases": [
+        "路口",
+        "街区地面",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "斑马线",
+        "道路",
+        "模块"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.1,
+      "model": "models/urban_style/U4_terrain/road/models_text/u_ter_crosswalk.glb"
+    },
+    {
+      "id": "u_ter_sidewalk",
+      "name": "人行道",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "sidewalk",
+      "subcategory_name": "人行道",
+      "description": "模块化人行道地块，混凝土板与路缘，用于街区边界。",
+      "use_cases": [
+        "街区边界",
+        "铺装",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "人行道",
+        "模块",
+        "街道"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.15,
+      "model": "models/urban_style/U4_terrain/sidewalk/models_text/u_ter_sidewalk.glb"
+    },
+    {
+      "id": "u_ter_metal_grate",
+      "name": "金属格栅",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "industrial",
+      "subcategory_name": "工业地面",
+      "description": "模块化金属格栅，工业深钢色，用于巷战/工业区。",
+      "use_cases": [
+        "工业区地面",
+        "排水口",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "格栅",
+        "工业",
+        "模块"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.1,
+      "model": "models/urban_style/U4_terrain/industrial/models_text/u_ter_metal_grate.glb"
+    },
+    {
+      "id": "u_ter_rooftop",
+      "name": "屋顶地面",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "rooftop",
+      "subcategory_name": "屋顶",
+      "description": "模块化屋顶地块，混凝土、排水口与小通风口，用于屋顶场景。",
+      "use_cases": [
+        "屋顶场景",
+        "攀爬路线",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "屋顶",
+        "模块",
+        "城市"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.15,
+      "model": "models/urban_style/U4_terrain/rooftop/models_text/u_ter_rooftop.glb"
+    },
+    {
+      "id": "u_ter_subway_platform",
+      "name": "地铁站台",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "transit",
+      "subcategory_name": "站台",
+      "description": "模块化地铁站台地块，瓷砖地面与警示条，用于交通场景。",
+      "use_cases": [
+        "地铁场景",
+        "快速旅行",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "站台",
+        "交通",
+        "模块"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.15,
+      "model": "models/urban_style/U4_terrain/transit/models_text/u_ter_subway_platform.glb"
+    },
+    {
+      "id": "u_ter_neon_puddle",
+      "name": "霓虹水洼",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "road",
+      "subcategory_name": "道路",
+      "description": "模块化霓虹水洼，湿沥青与霓虹反光，用于夜雨街区。",
+      "use_cases": [
+        "夜雨氛围",
+        "街区地面",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "水洼",
+        "霓虹",
+        "模块"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.05,
+      "model": "models/urban_style/U4_terrain/road/models_text/u_ter_neon_puddle.glb"
+    },
+    {
+      "id": "u_ter_construction_barrier",
+      "name": "施工围挡",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "industrial",
+      "subcategory_name": "工业地面",
+      "description": "模块化施工围挡，金属网与警示条纹，用于封锁区域。",
+      "use_cases": [
+        "区域封锁",
+        "施工场景",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "围挡",
+        "施工",
+        "模块"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.8,
+      "model": "models/urban_style/U4_terrain/industrial/models_text/u_ter_construction_barrier.glb"
+    },
+    {
+      "id": "u_ter_alley_floor",
+      "name": "巷道路面",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "industrial",
+      "subcategory_name": "工业地面",
+      "description": "模块化巷道路面，污渍混凝土与排水口，用于后巷场景。",
+      "use_cases": [
+        "后巷场景",
+        "战斗地面",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "巷道",
+        "工业",
+        "模块"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.1,
+      "model": "models/urban_style/U4_terrain/industrial/models_text/u_ter_alley_floor.glb"
+    },
+    {
+      "id": "u_ter_park_tile",
+      "name": "公园地砖",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U4_terrain",
+      "category_name": "都市地形",
+      "subcategory": "park",
+      "subcategory_name": "公园",
+      "description": "模块化公园地砖，铺石与草边，用于街区绿地。",
+      "use_cases": [
+        "绿地",
+        "休息区",
+        "建造"
+      ],
+      "tags": [
+        "地形",
+        "公园",
+        "地砖",
+        "模块"
+      ],
+      "roles": [
+        "terrain"
+      ],
+      "target_height": 0.1,
+      "model": "models/urban_style/U4_terrain/park/models_text/u_ter_park_tile.glb"
+    },
+    {
+      "id": "u_bld_apartment_b",
+      "name": "高层公寓变体",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U5_variants_a",
+      "category_name": "建筑变体",
+      "subcategory": "building_variants",
+      "subcategory_name": "建筑变体",
+      "description": "更高的公寓变体，带外挂楼梯与屋顶水箱。",
+      "use_cases": [
+        "街区主体",
+        "玩家住宅",
+        "攀爬/探索"
+      ],
+      "tags": [
+        "建筑",
+        "公寓",
+        "居住",
+        "都市",
+        "变体"
+      ],
+      "roles": [
+        "building"
+      ],
+      "target_height": 6.0,
+      "model": "models/urban_style/U5_variants_a/building_variants/models_text/u_bld_apartment_b.glb"
+    },
+    {
+      "id": "u_bld_apartment_c",
+      "name": "转角公寓变体",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U5_variants_a",
+      "category_name": "建筑变体",
+      "subcategory": "building_variants",
+      "subcategory_name": "建筑变体",
+      "description": "较矮的转角公寓变体，底层带小店面。",
+      "use_cases": [
+        "街区主体",
+        "玩家住宅",
+        "攀爬/探索"
+      ],
+      "tags": [
+        "建筑",
+        "公寓",
+        "居住",
+        "都市",
+        "变体"
+      ],
+      "roles": [
+        "building"
+      ],
+      "target_height": 6.0,
+      "model": "models/urban_style/U5_variants_a/building_variants/models_text/u_bld_apartment_c.glb"
+    },
+    {
+      "id": "u_bld_convenience_store_b",
+      "name": "大型便利店变体",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U5_variants_a",
+      "category_name": "建筑变体",
+      "subcategory": "building_variants",
+      "subcategory_name": "建筑变体",
+      "description": "更大的便利店变体，双玻璃入口。",
+      "use_cases": [
+        "商店交互",
+        "补给点",
+        "街区地标"
+      ],
+      "tags": [
+        "建筑",
+        "便利店",
+        "商店",
+        "都市",
+        "变体"
+      ],
+      "roles": [
+        "shop"
+      ],
+      "target_height": 3.5,
+      "model": "models/urban_style/U5_variants_a/building_variants/models_text/u_bld_convenience_store_b.glb"
+    },
+    {
+      "id": "u_bld_noodle_shop_b",
+      "name": "巷口面馆变体",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U5_variants_a",
+      "category_name": "建筑变体",
+      "subcategory": "building_variants",
+      "subcategory_name": "建筑变体",
+      "description": "更小的巷口面馆变体，窄柜台。",
+      "use_cases": [
+        "购买食物",
+        "休息点",
+        "街区氛围"
+      ],
+      "tags": [
+        "建筑",
+        "面馆",
+        "餐饮",
+        "都市",
+        "变体"
+      ],
+      "roles": [
+        "shop"
+      ],
+      "target_height": 3.0,
+      "model": "models/urban_style/U5_variants_a/building_variants/models_text/u_bld_noodle_shop_b.glb"
+    },
+    {
+      "id": "u_bld_arcade_b",
+      "name": "双层游戏厅变体",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U5_variants_a",
+      "category_name": "建筑变体",
+      "subcategory": "building_variants",
+      "subcategory_name": "建筑变体",
+      "description": "双层游戏厅变体，屋顶招牌与外挂楼梯。",
+      "use_cases": [
+        "街机小游戏",
+        "娱乐交互",
+        "夜间地标"
+      ],
+      "tags": [
+        "建筑",
+        "游戏厅",
+        "娱乐",
+        "街机",
+        "变体"
+      ],
+      "roles": [
+        "shop"
+      ],
+      "target_height": 4.0,
+      "model": "models/urban_style/U5_variants_a/building_variants/models_text/u_bld_arcade_b.glb"
+    },
+    {
+      "id": "u_bld_garage_b",
+      "name": "开门车库变体",
+      "pack": "urban_style",
+      "pack_label": "都市动漫风（复古 × 潮流风格包）",
+      "category": "U5_variants_a",
+      "category_name": "建筑变体",
+      "subcategory": "building_variants",
+      "subcategory_name": "建筑变体",
+      "description": "卷帘门打开的车库变体，带汽车升降台。",
+      "use_cases": [
+        "制作台",
+        "修理",
+        "机械师 NPC"
+      ],
+      "tags": [
+        "建筑",
+        "车库",
+        "工坊",
+        "工业",
+        "变体"
+      ],
+      "roles": [
+        "building",
+        "crafter"
+      ],
+      "target_height": 3.5,
+      "model": "models/urban_style/U5_variants_a/building_variants/models_text/u_bld_garage_b.glb"
+    }
+  ]
+}
